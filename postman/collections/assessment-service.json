@@ -904,7 +904,9 @@
 							"    pm.expect(pm.response.responseTime).to.be.below(4000);",
 							"});",
 							"",
-							"pm.environment.set(\"assessment_responseExternalId\", jsonData.responseExternalId);"
+							"pm.environment.set(\"assessment_responseExternalId\", jsonData.responseExternalId);",
+							"",
+							""
 						],
 						"type": "text/javascript"
 					}
